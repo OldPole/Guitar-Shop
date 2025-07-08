@@ -36,7 +36,6 @@
     border: 1px solid var(--color-unaccent);
     cursor: pointer;
     outline: none;
-    background: none;
     background-color: inherit;
     font-size: inherit;
 }
