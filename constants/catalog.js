@@ -21,6 +21,6 @@ const CATALOG = [
         id: 'el4',
         name: 'Stagg SET-PLUS NAT',
         img: 'img/catalog/guitar4.jpg',
-        price: '570',
+        price: 570,
     },
 ]
