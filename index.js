@@ -18,8 +18,9 @@ fetch('server/catalog.json')
         spinner.handleClear();
         render();
     })
-    .catch(error => {
-        console.log(error);
+    .catch(() => {
+        spinner.handleClear();
+        errorPage.render();
     });
 
 // to start http-server, enter 'http-server' in console
